@@ -1,7 +1,6 @@
 const cron = require('node-cron');
 require('dotenv').config()
 
-console.log(process.env.HOGEHOGE)
 cron.schedule('* */3 * * *', () => {
     let unixtime = new Date();
     unixtime.setHours(unixtime.getHours() + 9);
