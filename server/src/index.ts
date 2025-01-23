@@ -12,8 +12,7 @@ app.get('/', async c => {
 		`
 	).all();
 
-	let date = new Date(data.results[0].unixtime * 1000);
-	date.setHours(date.getHours() + 9);
+	let date = new Date(data.results[0].unixtime);
 
 	return c.text(
 		`${date.getHours().toString().padStart(2, '0')}時${date.getMinutes().toString().padStart(2, '0')}分現在の部屋の温度は${
