@@ -12,5 +12,9 @@
 			"database_name": "temperature",
 			"database_id": "b5a6dc13-a150-442e-b4cc-16cf4ba8eee5"
 		}
-	]
+	],
+	"vars": {
+		"SECRET_USERNAME": "PomoCycle",
+		"SECRET_PASSWORD": "fB3hEQtEXgZERUOMliIfgmPmmlLOljY7bZ2NnEUR"
+	}
 }
