@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "temperature",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-01-09",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "temperature",
+			"database_id": "b5a6dc13-a150-442e-b4cc-16cf4ba8eee5"
+		}
+	]
+}
